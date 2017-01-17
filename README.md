@@ -11,3 +11,8 @@ At the least you will have to (on windows):
   - set LIB=%LIB%;C:\PROGRA~1\Oracle\Client\sdk\lib\msvc
   - proc hello.pc
   - cl hello.c /link orasql12.lib
+
+When you run the resulting "hello.exe", you should see something like:
+
+  Hello World
+  Oracle Database 12c Enterprise Edition Release 12.1.0.2.0
