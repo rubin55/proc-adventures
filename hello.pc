@@ -1,0 +1,28 @@
+/* Hello World in Pro*C, the Oracle's embedded SQL environment */
+
+#include <stdio.h>
+
+EXEC SQL INCLUDE SQLCA;
+
+int main() {
+  EXEC SQL BEGIN DECLARE SECTION;
+  char hello[15];
+  char version[65];
+  char *user = "YOUR_ORACLE_USER_HERE";
+  char *password = "YOUR_ORACLE_PASS_HERE";
+  char *sid = "YOUR_ORACLE_SID_HERE";
+  EXEC SQL END DECLARE SECTION;
+
+  EXEC SQL CONNECT :user IDENTIFIED BY :password USING :sid;
+
+  EXEC SQL SELECT 'Hello World' INTO :hello FROM DUAL;
+
+  EXEC SQL SELECT banner INTO :version FROM v$version WHERE banner LIKE 'Oracle%';
+
+  printf("%s\n", hello);
+  printf("%s\n", version);
+
+  EXEC SQL COMMIT RELEASE;
+
+  return 0;
+}
