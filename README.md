@@ -1,8 +1,8 @@
 A small example using Oracle Pro\*C with Oracle Database 12c. Requirements:
 
-  - An oracle database you can connect to
-  - The oracle Pro\*C precompiler (and make sure `proc.exe` is on the path)
-  - A regular C compiler (I used the 64-bit compiler that comes with Visual Studio 2015 Community)
+  - An Oracle database you can connect to
+  - The [Oracle Pro\*C Precompiler](http://www.oracle.com/technetwork/topics/precomp-112010-084940.html) (and make sure `proc.exe` is on the path)
+  - A regular C compiler (I used the 64-bit compiler that comes with [Visual Studio 2015 Community](https://www.visualstudio.com/vs/community/))
 
 At the least you will have to (on windows):
 
