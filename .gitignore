@@ -32,5 +32,13 @@
 *.dSYM/
 *.su
 
-# Build directory
-build/**
+# CMake and other project files
+Makefile
+CMakeCache.txt
+CMakeFiles/**
+cmake_install.cmake
+*.vcxproj
+*.vcxproj.filters
+*.sln
+.cproject
+.project
