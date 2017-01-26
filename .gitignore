@@ -3,8 +3,10 @@
 *.ko
 *.obj
 *.elf
+*.ilk
+*.pdb
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
@@ -42,3 +44,6 @@ cmake_install.cmake
 *.sln
 .cproject
 .project
+Debug/**
+*.dir/**
+x64/**
