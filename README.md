@@ -8,7 +8,7 @@ At the least you will have to (on windows):
 
   - Set include and library directories in CMakeLists.txt
   - `cmake -G "Visual Studio 14 2015 Win64" .`
-  - `msbuild proc-adventures.sln`
+  - `cmake --build .`
   - `debug\hello.exe`
   - `clean.bat`
 
