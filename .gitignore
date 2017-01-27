@@ -38,6 +38,7 @@
 Makefile
 CMakeCache.txt
 CMakeFiles/**
+_CPack_Packages/**
 *.cmake
 *.vcxproj
 *.vcxproj.filters
@@ -45,5 +46,6 @@ CMakeFiles/**
 .cproject
 .project
 Debug/**
+Testing/**
 *.dir/**
 x64/**
