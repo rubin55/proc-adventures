@@ -39,6 +39,7 @@ Makefile
 CMakeCache.txt
 CMakeFiles/**
 _CPack_Packages/**
+install_manifest.txt
 *.cmake
 *.vcxproj
 *.vcxproj.filters
