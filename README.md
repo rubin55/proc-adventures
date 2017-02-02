@@ -9,6 +9,8 @@ A small example using Oracle Pro\*C with Oracle Database 12c. Requirements:
 At the least you will have to (on windows):
 
   - Set include and library directories in CMakeLists.txt
+  - `git clone https://github.com/rubin55/proc-adventures`
+  - `cd proc-adventures`
   - `cmake -G "Visual Studio 14 2015 Win64" .`
   - `cmake --build .`
   - `debug\hello.exe`
