@@ -4,8 +4,8 @@ project(proc-adventures)
 set(CPACK_GENERATOR "ZIP")
 include(CPack)
 
-include_directories("C:/Program Files/Oracle/Client/sdk/include")
-link_directories("C:/Program Files/Oracle/Client/sdk/lib/msvc")
+include_directories("C:/Program Files/Oracle/Home/precomp/public")
+link_directories("C:/Program Files/Oracle/Home/precomp/lib")
 
 enable_testing()
 

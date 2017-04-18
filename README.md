@@ -2,7 +2,7 @@ A small example using Oracle Pro\*C with Oracle Database 12c. Requirements:
 
   - An [Oracle Database](https://edelivery.oracle.com/) you can connect to
   - The [Oracle Pro\*C Precompiler](http://www.oracle.com/technetwork/topics/precomp-112010-084940.html) (and make sure `proc.exe` is on the path)
-  - A regular C compiler (I used the 64-bit compiler that comes with [Visual Studio 2015 Community](https://www.visualstudio.com/vs/community/))
+  - A regular C compiler (I used the 64-bit compiler that comes with [Visual Studio 2017 Community](https://www.visualstudio.com/vs/community/))
   - A relatively recent [git](https://git-scm.com/) which is available on your PATH
   - A relatively recent [cmake/ctest/cpack](https://cmake.org/download/) which is available on your path
 
@@ -11,7 +11,7 @@ At the least you will have to (on windows):
   - Set include and library directories in CMakeLists.txt
   - `git clone https://github.com/rubin55/proc-adventures`
   - `cd proc-adventures`
-  - `cmake -G "Visual Studio 14 2015 Win64" .`
+  - `cmake -G "Visual Studio 15 2017 Win64" .`
   - `cmake --build .`
   - `debug\hello.exe`
   - `clean.bat`
@@ -23,5 +23,5 @@ When you run the program's executable, it will ask you for a database sid to con
 
   ```
   Hello World
-  Oracle Database 12c Enterprise Edition Release 12.1.0.2.0
+  Oracle Database 12c Enterprise Edition Release 12.2.0.1.0
   ```
